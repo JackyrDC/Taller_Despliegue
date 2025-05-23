@@ -9,11 +9,11 @@ app.use((req, res, next) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('🚀 ¡Hola desde Express con Bun!');
+  res.send('🚀 ¡Hola!');
 });
 
 app.get('/saludo', (req, res) => {
-  res.json({ mensaje: 'Hola, ¡¡Bienvenido a tu servidor de Express con Bun!!' });
+  res.json({ mensaje: '¡¡Bienvenido a tu servidor de Express con Bun!!' });
 });
 
 app.listen(PORT, () => {
